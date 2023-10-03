@@ -31,7 +31,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-deemccart-djangoblog-1veyj1etfuv.ws-eu105.gitpod.io',
-"deemccart-blog.herokuapp.com", 'locahost'
+                "deemccart-blog.herokuapp.com",
+                'locahost',
+                'deemccart-blog-52cfcc3871bf.herokuapp.com'
 ]
 
 
