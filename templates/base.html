@@ -39,7 +39,8 @@
                     </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'account_logout' %}">Logout</a>
+                        <a class="nav-link" href="{% url 'account_logout' %}">Logout {{ user.username }}</a>
+                                          
                     </li>
                     {% else %}
                     <li class="nav-item">
@@ -51,7 +52,7 @@
                     {% endif %}
                 </ul>
                 <span class="navbar-text text-muted">
-                    gathering Irish financial planning resources in one place 
+                    gathering Irish financial planning resources in one place
                 </span>
             </div>
         </div>
